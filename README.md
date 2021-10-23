@@ -20,7 +20,9 @@
 ## Github Stats
 
 <img src="https://github-readme-stats.vercel.app/api/wakatime?username=juninmd&theme=dracula"/>
+
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=juninmd&show_icons=true&theme=nord)
+
 [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=juninmd)](https://github.com/anuraghazra/github-readme-stats)
 
 
