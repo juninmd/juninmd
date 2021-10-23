@@ -17,10 +17,12 @@
 <img src="https://img.shields.io/badge/ReactNative-f55247"/>
 </P
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=juninmd&layout=compact&theme=nord&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+## Github Stats
 
-### Stats
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=juninmd&theme=dracula"/>
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=juninmd&show_icons=true&theme=nord)
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=juninmd)](https://github.com/anuraghazra/github-readme-stats)
+
 
 ### Contato
   
