@@ -1,5 +1,11 @@
+<a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/juninmd/juninmd/blob/master/devcard.svg" width="400" alt="Chris Bongers's Dev Card"/></a>
+
 # Antonio Carlos (Junin)
 > Desenvolvedor Sênior Fullstack
+
+
+
+
 
 <p><img src="http://views.whatilearened.today/views/github/juninmd/views.svg"/> 
 <a href="https://github.com/juninmd/"><img src="https://img.shields.io/github/followers/juninmd?color=%234CC61E&label=GitHub%20Followers%20%3A"/></a></p>
