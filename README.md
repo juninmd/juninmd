@@ -1,4 +1,4 @@
-# Antonio Carlos (Junin)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Antonio+Carlos)](https://git.io/typing-svg)
 <p>
 <img src="http://views.whatilearened.today/views/github/juninmd/views.svg"/> 
 <a href="https://github.com/juninmd/"><img src="https://img.shields.io/github/followers/juninmd?color=%234CC61E&label=GitHub%20Followers%20%3A"/></a>
