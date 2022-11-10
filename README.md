@@ -1,11 +1,5 @@
 # Antonio Carlos (Junin)
 > Desenvolvedor Sênior Fullstack
-
-
-<p><img src="http://views.whatilearened.today/views/github/juninmd/views.svg"/> 
-<a href="https://github.com/juninmd/"><img src="https://img.shields.io/github/followers/juninmd?color=%234CC61E&label=GitHub%20Followers%20%3A"/></a></p>
-
-## Stack
 <p>
 <img src="https://img.shields.io/badge/JavaScript-f55247"/>
 <img src="https://img.shields.io/badge/Java-f55247"/>
@@ -17,6 +11,13 @@
 <img src="https://img.shields.io/badge/React-f55247"/>
 <img src="https://img.shields.io/badge/ReactNative-f55247"/>
 </p>
+
+
+<p><img src="http://views.whatilearened.today/views/github/juninmd/views.svg"/> 
+<a href="https://github.com/juninmd/"><img src="https://img.shields.io/github/followers/juninmd?color=%234CC61E&label=GitHub%20Followers%20%3A"/></a></p>
+
+## Stack
+[[https://spotify-github-profile.vercel.app/api/view.svg?uid=juninmd&redirect=true][https://spotify-github-profile.vercel.app/api/view.svg?uid=juninmd&cover_image=true&theme=default&show_offline=true&background_color=121212&bar_color=53b14f&bar_color_cover=true)]]
 
 ## Github Status
 
