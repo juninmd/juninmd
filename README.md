@@ -44,6 +44,9 @@
 <summary>:trophy: Github Stats</summary>
 <img src="https://bad-apple-github-readme.vercel.app/api?show_bg=1&username=juninmd">
 <img src="https://github-profile-trophy.vercel.app/?username=juninmd">
- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=juninmd&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=juninmd&show_icons=true&theme=dracula)
+ 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=juninmd&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+ 
+![juninmd's github stats](https://github-readme-stats.vercel.app/api?username=juninmd&show_icons=true&theme=dracula)
+ 
 </details>
