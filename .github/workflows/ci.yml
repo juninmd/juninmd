@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  lint-yaml:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install PyYAML
+        run: pip install pyyaml
+      - name: Validate YAML files
+        run: |
+          python3 -c 'import yaml, os, sys
+
+          errors = False
+          for root, dirs, files in os.walk("."):
+              for file in files:
+                  if file.endswith(".yml") or file.endswith(".yaml"):
+                       filepath = os.path.join(root, file)
+                       try:
+                           yaml.safe_load(open(filepath))
+                           print(f"Valid: {filepath}")
+                       except Exception as e:
+                           print(f"Invalid: {filepath} - {e}")
+                           errors = True
+          if errors: sys.exit(1)'
