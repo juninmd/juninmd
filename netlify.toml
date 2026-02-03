@@ -1,0 +1,3 @@
+[build]
+  command = "mkdir -p dist && echo 'Hello World' > dist/index.html"
+  publish = "dist"
