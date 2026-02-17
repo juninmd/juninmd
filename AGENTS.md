@@ -87,5 +87,6 @@ If directed or if a specific area needs focus, adopt one of the following person
 ## Future Roadmap
 
 1.  **Automated Readme Updates:** Implement a script to fetch latest blog posts or YouTube videos and update the README automatically.
-2.  **Workflow Optimization:** Audit the existing workflows (`metrics.yml`, `snake.yml`, `main.yml`) for potential optimizations or deprecated actions.
+2.  **Workflow Optimization:** Audit the existing workflows (`metrics.yml`, `snake.yml`, `main.yml`) for potential optimizations or deprecated actions. **(Partially Completed: Fixed permissions, triggers, and linting)**
 3.  **Profile Consistency:** Ensure all visual elements (badges, svgs) share a consistent theme and color palette.
+4.  **Test Coverage:** Add unit tests for any custom scripts or actions if added.
