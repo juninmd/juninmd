@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: ["main", "master"]
   pull_request:
-    branches: [ "main", "master" ]
+    branches: ["main", "master"]
 
 jobs:
   lint-yaml:
@@ -15,21 +15,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-      - name: Install PyYAML
-        run: pip install pyyaml
-      - name: Validate YAML files
-        run: |
-          python3 -c 'import yaml, os, sys
-
-          errors = False
-          for root, dirs, files in os.walk("."):
-              for file in files:
-                  if file.endswith(".yml") or file.endswith(".yaml"):
-                       filepath = os.path.join(root, file)
-                       try:
-                           yaml.safe_load(open(filepath))
-                           print(f"Valid: {filepath}")
-                       except Exception as e:
-                           print(f"Invalid: {filepath} - {e}")
-                           errors = True
-          if errors: sys.exit(1)'
+      - name: Install yamllint
+        run: pip install yamllint
+      - name: Lint YAML files
+        run: yamllint .

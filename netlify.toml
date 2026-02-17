@@ -1,3 +1,7 @@
 [build]
   command = "mkdir -p dist && echo 'Hello World' > dist/index.html"
   publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--omit=dev"
