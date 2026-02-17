@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/juninmd/juninmd/compare/v1.0.0...v1.0.1) (2026-02-17)
+
+
+### Bug Fixes
+
+* **ci:** resolve github actions pipeline issues ([899dd92](https://github.com/juninmd/juninmd/commit/899dd92307ab1201fcf3faa1b4643094e748c3a6))
+
 # 1.0.0 (2026-02-03)
 
 
