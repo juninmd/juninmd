@@ -25,9 +25,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "lts/*"
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm install -g semantic-release @semantic-release/git @semantic-release/changelog -D
+        run: npm ci
 
       - name: Release
         env:
