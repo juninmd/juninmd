@@ -23,3 +23,10 @@
 - Focus on maintaining the stability of the workflows.
 - Ensure the `README.md` remains visually appealing and functional.
 - **[New]** Monitor workflow execution for permissions issues.
+
+## 2026-10-23 Profile Revamp
+- README redesigned: animated `assets/hero.svg` (self-hosted, no third-party dependency), featured project (tokenix), auto-generated Top repos / Languages sections.
+- `scripts/update-readme.mjs` rewrites sections between `<!--NAME:START/END-->` markers; tested via `npm test` (node:test).
+- Workflow `update-readme.yml` is `workflow_dispatch` only — cron schedules were removed on purpose earlier.
+- Removed fragile third-party widgets (github-readme-stats, streak, trophy, view counter). Snake image still read from the `output` branch.
+- Sandbox cannot reach api.github.com; README seed data came from the GitHub MCP.
