@@ -13,12 +13,12 @@
 
 ## 🔥 Em destaque: [tokenix](https://github.com/juninmd/tokenix)
 
-> Busca semântica local, grafos de símbolos, scan de segredos, filtros de saída e hooks de CLI que **economizam 60–90% dos tokens de LLM**. Feito em Rust 🦀 para Claude Code, Codex, Gemini e Ollama.
+> Entrega ao seu agente de IA só a fatia do código de que ele precisa, não o arquivo inteiro. Índice local em SQLite, grafo de símbolos (tree-sitter), leitura cirúrgica, **filtros determinísticos de saída** (528+) e hooks nativos para Claude Code, Codex, Copilot, Antigravity, OpenCode e qualquer cliente MCP. Escrito em Rust 🦀, sem modelo, sem embeddings e sem daemon.
 
 <div align="center">
   <a href="https://github.com/juninmd/tokenix"><img src="https://img.shields.io/github/stars/juninmd/tokenix?style=for-the-badge&logo=github&color=a965f2&labelColor=0d1117" alt="Stars do tokenix"/></a>
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
-  <img src="https://img.shields.io/badge/LLM-token%20saver-00e5ff?style=for-the-badge&labelColor=0d1117" alt="Economia de tokens"/>
+  <img src="https://img.shields.io/badge/símbolos%20%C2%B7%20filtros%20%C2%B7%20hooks-00e5ff?style=for-the-badge&labelColor=0d1117" alt="Grafo de símbolos, filtros e hooks"/>
 </div>
 
 ## ⚡ Arsenal
@@ -36,7 +36,7 @@
 <!--TOP:START-->
 | Repo | Linguagem | Stars | Descrição |
 |---|---|---|---|
-| [**tokenix**](https://github.com/juninmd/tokenix) | Rust | ⭐ 16 | Local semantic search, symbol graphs, secrets scanning, output filters, and CLI hooks that save 60-90% LLM tokens. |
+| [**tokenix**](https://github.com/juninmd/tokenix) | Rust | ⭐ 16 | Local code index, tree-sitter symbol graph, deterministic output filters and native agent hooks that trim tokens before they reach the model. |
 | [**roadmap-developer**](https://github.com/juninmd/roadmap-developer) | TypeScript | ⭐ 7 | — |
 | [**dotfiles**](https://github.com/juninmd/dotfiles) | Shell | ⭐ 5 | Repositório para guardar configurações, padrões, dicas, macetes. |
 | [**awesome-tools**](https://github.com/juninmd/awesome-tools) | Python | ⭐ 3 | — |
