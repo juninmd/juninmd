@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:800080,100:000000&height=220&section=header&text=JUNINMD&fontSize=80&fontAlign=50&animation=fadeIn&fontColor=ffffff&desc=Digital%20Alchemist%20%7C%20Tech%20Lead&descSize=20&descAlign=50" alt="Juninmd" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:800080,100:000000&height=220&section=header&text=JUNINMD&fontSize=80&fontAlign=50&fontAlignY=38&animation=fadeIn&fontColor=ffffff&desc=Digital%20Alchemist%20%7C%20Tech%20Lead&descSize=20&descAlign=50&descAlignY=62" alt="Juninmd" width="100%"/>
   <br/>
   <img src="assets/hero.svg" alt="whoami — Antonio Carlos, Tech Lead @luizalabs" width="760"/>
   <br/><br/>
