@@ -29,3 +29,8 @@ test('renderLangs gera barras proporcionais', () => {
   assert.match(out, /Rust\s+█{20} 2/);
   assert.match(out, /Go\s+█{10} 1/);
 });
+
+test('pickTop não quebra com pushed_at nulo (repo vazio) no desempate', () => {
+  const list = [repo('vazio', 1, { pushed_at: null }), repo('novo', 1, { pushed_at: '2026-05-01' })];
+  assert.deepEqual(pickTop(list).map((r) => r.name), ['novo', 'vazio']);
+});
