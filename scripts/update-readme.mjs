@@ -12,11 +12,11 @@ export function replaceSection(text, name, body) {
   return text.replace(re, `$1\n${body}\n$2`);
 }
 
-/** Filtra repos públicos próprios e ordena por estrelas (desempate: push mais recente). */
+/** Filtra repos públicos próprios e ordena por estrelas (desempate: push mais recente; repo vazio tem `pushed_at` nulo). */
 export function pickTop(repos, n = 6) {
   return repos
     .filter((r) => !r.fork && !r.archived && !r.private && r.name !== USER)
-    .sort((a, b) => b.stargazers_count - a.stargazers_count || b.pushed_at.localeCompare(a.pushed_at))
+    .sort((a, b) => b.stargazers_count - a.stargazers_count || (b.pushed_at || '').localeCompare(a.pushed_at || ''))
     .slice(0, n);
 }
 
