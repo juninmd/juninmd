@@ -34,3 +34,9 @@ test('pickTop não quebra com pushed_at nulo (repo vazio) no desempate', () => {
   const list = [repo('vazio', 1, { pushed_at: null }), repo('novo', 1, { pushed_at: '2026-05-01' })];
   assert.deepEqual(pickTop(list).map((r) => r.name), ['novo', 'vazio']);
 });
+
+test('replaceSection insere o corpo literalmente, mesmo com padrões de substituição ($1, $&)', () => {
+  const md = 'a<!--TOP:START-->x<!--TOP:END-->b';
+  const body = '| preco | Preços em R$100 e $& de desconto |';
+  assert.equal(replaceSection(md, 'TOP', body), `a<!--TOP:START-->\n${body}\n<!--TOP:END-->b`);
+});
