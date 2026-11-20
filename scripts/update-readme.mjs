@@ -9,7 +9,8 @@ const README = new URL('../README.md', import.meta.url);
 export function replaceSection(text, name, body) {
   const re = new RegExp(`(<!--${name}:START-->)[\\s\\S]*?(<!--${name}:END-->)`);
   if (!re.test(text)) throw new Error(`Marcador ${name} não encontrado`);
-  return text.replace(re, `$1\n${body}\n$2`);
+  // Função como substituto: o corpo vem da API (descrições com "R$100", "$&") e não pode ser lido como padrão.
+  return text.replace(re, (_, start, end) => `${start}\n${body}\n${end}`);
 }
 
 /** Filtra repos públicos próprios e ordena por estrelas (desempate: push mais recente; repo vazio tem `pushed_at` nulo). */
