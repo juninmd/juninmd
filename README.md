@@ -30,25 +30,30 @@
 ## 🏆 Top repositórios
 
 <!--COUNT:START-->
-**281** repositórios públicos
+**111** repositórios públicos · atualizado em 2026-11-23
 <!--COUNT:END-->
 
 <!--TOP:START-->
 | Repo | Linguagem | Stars | Descrição |
 |---|---|---|---|
-| [**tokenix**](https://github.com/juninmd/tokenix) | Rust | ⭐ 16 | Local code index, tree-sitter symbol graph, deterministic output filters and native agent hooks that trim tokens before they reach the model. |
-| [**roadmap-developer**](https://github.com/juninmd/roadmap-developer) | TypeScript | ⭐ 7 | — |
-| [**dotfiles**](https://github.com/juninmd/dotfiles) | Shell | ⭐ 5 | Repositório para guardar configurações, padrões, dicas, macetes. |
-| [**awesome-tools**](https://github.com/juninmd/awesome-tools) | Python | ⭐ 3 | — |
-| [**teresinha**](https://github.com/juninmd/teresinha) | TypeScript | ⭐ 3 | — |
-| [**github-assistance**](https://github.com/juninmd/github-assistance) | Python | ⭐ 2 | — |
+| [**tokenix**](https://github.com/juninmd/tokenix) | Rust | ⭐ 15 | Local semantic search, symbol graphs, secret scanning and output filters that save 60-90% of LLM tokens for coding agents. |
+| [**roadmap-developer**](https://github.com/juninmd/roadmap-developer) | TypeScript | ⭐ 7 | Roadmap Developer 2026: study tracks from junior to specialist, focused on AI, architecture and green software. |
+| [**dotfiles**](https://github.com/juninmd/dotfiles) | Shell | ⭐ 6 | Reproducible dev environment for Windows, macOS and Linux with a TUI installer and checksum-verified bootstrap. |
+| [**canto-widget**](https://github.com/juninmd/canto-widget) | TypeScript | ⭐ 4 | Corner widget desktop app (Tauri + React) with an encrypted vault and zero-knowledge sync to Google Drive. |
+| [**awesome-tools**](https://github.com/juninmd/awesome-tools) | Python | ⭐ 3 | Curated collection of developer tools, utilities, learning resources and productivity picks. |
+| [**github-assistance**](https://github.com/juninmd/github-assistance) | TypeScript | ⭐ 3 | Fleet of 17 AI agents that maintains a GitHub portfolio: PR review and merge, secret scans, dependency and README upkeep. |
 <!--TOP:END-->
 
 ## 🧠 Linguagens (por nº de repos)
 
 <!--LANGS:START-->
 ```text
-(atualizado pelo workflow "Update README")
+TypeScript   ████████████████████ 60
+JavaScript   ██████ 17
+Python       ████ 11
+Rust         ███ 10
+Dart         █ 2
+C#           █ 1
 ```
 <!--LANGS:END-->
 
